@@ -1,0 +1,33 @@
+{
+  "name": "kow2022-gulp",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamggrover/kow2022-gulp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adamggrover/kow2022-gulp/issues"
+  },
+  "homepage": "https://github.com/adamggrover/kow2022-gulp#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "description": "",
+  "dependencies": {
+    "autoprefixer": "^10.4.9",
+    "bootstrap": "^5.2.1",
+    "browser-sync": "^2.27.10",
+    "cssnano": "^5.1.13",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-terser": "^2.1.0",
+    "postcss": "^8.4.16",
+    "sass": "^1.54.9"
+  }
+}
