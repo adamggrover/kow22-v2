@@ -4,21 +4,23 @@
   background-color: g.$dark;
   padding-top: 4rem;
   padding-bottom: 5rem;
- 
-
 }
+
 
 .card{
   border-radius: 0;
-  border: g.$light solid 1rem;
+  background-color: g.$light;
+  border: white 1rem solid;
+  
 }
 
 .card-top{
     height: 15rem; 
     width: 100%;
     
-    
 }
+
+
 
 .card-img-top{
   object-fit: cover;
