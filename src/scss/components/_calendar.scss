@@ -11,13 +11,14 @@
 }
 
 .calendar-card{
-    background-color: #white;
+    background-color: g.$light;
     padding: 0 2rem;
     max-width: 17rem;
     min-height: 20rem;    
     color: white;    
     border-radius: 0;
-    border: g.$light solid 1rem;
+    border: white 1rem solid;
+    
 }
 
 .calendar-card:hover{
