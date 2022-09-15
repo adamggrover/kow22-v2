@@ -1,6 +1,6 @@
 
 
-// When the user scrolls down 50px from the top of the document, change the header's background color
+// When the user scrolls down 50px from the top of the document, change the header's background color from, transparent to dark
 
 
 function headerBackground() {
@@ -14,8 +14,8 @@ function headerBackground() {
 //function to change logo size on scroll
 
 function logoChange(){
-    var logo = $(".logo1"); $(window).scroll(function() {
-    var scroll = $(window).scrollTop();
+    let logo = $(".logo1"); $(window).scroll(function() {
+    let scroll = $(window).scrollTop();
     
 
     
@@ -37,6 +37,7 @@ function logoChange(){
 
 if ( document.URL.includes("index") ) {
   window.onscroll = function() {
+      
       headerBackground();
       logoChange();
       };
