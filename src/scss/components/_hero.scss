@@ -181,6 +181,13 @@ main {
 /* Navbar */
 
 
+.closebtn{
+  color: g.$dark;
+  &:hover{
+    color: g.$green;
+  }
+}
+
 
 #MainMenu{
   width: 100%;
