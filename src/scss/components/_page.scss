@@ -16,6 +16,10 @@
     
 }
 
+.content-header{
+    margin-bottom: 3rem;
+}
+
 .content-header-breadcrumb-links{
     color: g.$green; 
 }
@@ -40,7 +44,7 @@
 
 #content-h1{
     color: g.$purple;
-    margin-top: 3rem;
+    
     font-weight: 700;
     font-size: 48px;
 }
