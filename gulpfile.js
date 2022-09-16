@@ -13,14 +13,14 @@ function scssTask(){
     return src('src/scss/styles.scss', {sourcemaps : true})
     .pipe(sass())
     .pipe(postcss([autoprefixer(), cssnano()]))
-    .pipe(dest('dist/css/styles.css', {sourcemaps: '.'}));
+    .pipe(dest('dist/css/styles.css/', {sourcemaps: '.'}));
 }
 
 // Js Task
 function jsTask(){
     return src('src/js/**/*.js', {sourcemaps : true})
     .pipe(terser())
-    .pipe(dest('dist/main.js', {sourcemaps: '.'}));
+    .pipe(dest('dist/js/main/', {sourcemaps: '.'}));
 
 }
 

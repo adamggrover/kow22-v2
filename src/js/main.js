@@ -66,31 +66,22 @@ function openSearch() {
 /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
 function openNav() {
     document.getElementById("sidebar-nav").style.width = "26rem";
-    document.getElementById("main").style.marginLeft = "26rem";
-    document.body.style.backgroundColor = "rgba(0,0,0,0.8)";
-    window.onscroll = () => { window.scroll(0, 0); };
-    
+
+    document.getElementById("whole-page").style.marginLeft = "26rem";
+
+    document.getElementById("whole-page").style.backgroundColor = "rgba(20, 20, 20, 0.7)" 
 
 }
-
  
-        
-    
-  
   
   /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
   function closeNav() {
     document.getElementById("sidebar-nav").style.width = "0";
-    document.getElementById("main").style.marginLeft = "0";
-    document.body.style.backgroundColor = "white";
+    document.getElementById("whole-page").style.marginLeft = "0";
+    document.getElementById("whole-page").style.backgroundColor = "white";
     
     
   }
-
-  
-
-
-
 
 //Announcement Box
 
@@ -103,8 +94,6 @@ function announcementClose() {
       x.style.display = "none";
     }
   }
-
-
 
 
 //news card section effects
