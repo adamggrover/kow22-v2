@@ -15,11 +15,11 @@ function headerBackground() {
 
 function logoChange(){
     let logo = $(".logo1"); $(window).scroll(function() {
-    let scroll = $(window).scrollTop();
+    //let scroll = $(window).scrollTop();
     
 
     
-    if (scroll >= 50) {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
         if(!logo.hasClass("logo2")) {
           logo.hide();
           logo.removeClass('logo1').addClass("logo2").fadeIn( "slow");
