@@ -67,9 +67,9 @@ function openSearch() {
 function openNav() {
     document.getElementById("sidebar-nav").style.width = "26rem";
 
-    document.getElementById("whole-page").style.marginLeft = "26rem";
+    document.getElementById("main").style.marginLeft = "26rem";
 
-    document.getElementById("whole-page").style.backgroundColor = "rgba(20, 20, 20, 0.7)" 
+    
 
 }
  
@@ -77,8 +77,8 @@ function openNav() {
   /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
   function closeNav() {
     document.getElementById("sidebar-nav").style.width = "0";
-    document.getElementById("whole-page").style.marginLeft = "0";
-    document.getElementById("whole-page").style.backgroundColor = "white";
+    document.getElementById("main").style.marginLeft = "0";
+    
     
     
   }
