@@ -1,0 +1,33 @@
+@use 'globals' as g;
+
+
+
+table{
+    border: none;
+    width: 100%;
+}
+  
+td {
+    
+    padding: 8px;
+    &:not(:first-child){
+        border-left: g.$light 2px solid;
+
+    }
+  }
+  
+ tr:nth-child(even){background-color: #e5ebc3;}
+  
+
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: g.$green;
+    color: white;
+    font-size: 1.2rem;
+    padding: 8px;
+    border-bottom: g.$light 2px solid;
+  }
+
